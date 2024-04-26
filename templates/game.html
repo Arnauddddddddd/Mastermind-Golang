@@ -1,0 +1,156 @@
+<html>
+   <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="../style/style.css"> 
+         <title> MASTERMIND </title> 
+   </head>
+   <body>
+
+        <body background="../pictures/neon.gif"> </body>
+    
+
+      {{ .Color }}
+        
+        <br> 
+        <button  class="btn-square-md {{ index .Colors 0 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 1 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 2 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 3 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 0 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 1 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 2 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 3 }}" ></button>
+        <br> <br>  
+
+
+        <button  class="btn-square-md {{ index .Colors 4 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 5 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 6 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 7 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 4 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 5 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 6 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 7 }}" ></button>
+        <br> <br>  
+        
+
+        <button  class="btn-square-md {{ index .Colors 8 }}"  ></button>
+        <button  class="btn-square-md {{ index .Colors 9 }}"  ></button>
+        <button  class="btn-square-md {{ index .Colors 10 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 11 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 8 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 9 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 10 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 11 }}" ></button>
+        <br> <br> 
+       
+
+        <button  class="btn-square-md {{ index .Colors 12 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 13 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 14 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 15 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 12 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 13 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 14 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 15 }}" ></button>
+        <br> <br>  
+        <button  class="btn-square-md {{ index .Colors 16 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 17 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 18 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 19 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 16 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 17 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 18 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 19 }}" ></button>
+        <br> <br>  
+
+        <button  class="btn-square-md {{ index .Colors 20 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 21 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 22 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 23 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 20 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 21 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 22 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 23 }}" ></button>
+        <br> <br>  
+
+        <button  class="btn-square-md {{ index .Colors 24 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 25 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 26 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 27 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 24 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 25 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 26 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 27 }}" ></button>
+        <br> <br> 
+
+        <button  class="btn-square-md {{ index .Colors 28 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 29 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 30 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 31 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 28 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 29 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 30 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 31 }}" ></button>
+        <br> <br> 
+
+        <button  class="btn-square-md {{ index .Colors 32 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 33 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 34 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 35 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 32 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 33 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 34 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 35 }}" ></button>
+        <br> <br> 
+
+        <button  class="btn-square-md {{ index .Colors 36 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 37 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 38 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 39 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 36 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 37 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 38 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 39 }}" ></button>
+        <br> <br>
+
+        <button  class="btn-square-md {{ index .Colors 40 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 41 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 42 }}" ></button>
+        <button  class="btn-square-md {{ index .Colors 43 }}" ></button>
+
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 40 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 41 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 42 }}" ></button>
+        <button  class="btn-rond btn-square-md {{ index .ColorsTry 43 }}" ></button>
+        <br> <br> 
+        
+
+        
+
+      <form action="/game">
+        <button type="submit"  class="button blanc glowing" name="color" value="delete"> DELETE </button>
+        <button type="submit"  class="button bleu glowing" name="color" value="bleu"></button>
+        <button type="submit"  class="button rouge glowing" name="color" value="rouge"></button>
+        <button type="submit"  class="button jaune glowing" name="color" value="jaune"></button>
+        <button type="submit"  class="button vert glowing" name="color" value="vert"></button>
+        <button type="submit"  class="button orange glowing" name="color" value="orange"></button>
+        <button type="submit"  class="button violet glowing" name="color" value="violet"></button>
+        <button type="submit"  class="button blanc glowing" name="color" value="valide"> VALIDE </button>
+
+
+      </form>
+      
+   </body>
+</html>
